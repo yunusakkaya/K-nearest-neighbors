@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data=pd.read_csv(r"C:\Users\yunus\Desktop\udemy\column-2C-weka.csv")
+data=pd.read_csv(r"data.csv")
 
 color_list = ['red' if i=='Abnormal' else 'green' for i in data.loc[:,'class']]
 pd.plotting.scatter_matrix(data.loc[:, data.columns != 'class'],
