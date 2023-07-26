@@ -1,1 +1,1 @@
-# knn-test
+# K-Nearest Neighbors Algorithm
